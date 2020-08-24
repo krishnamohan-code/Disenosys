@@ -549,7 +549,7 @@ section {
  border: 1px solid skyblue;
 }
 .course-form ul{
-  margin:5vh 0 0 4vw
+  margin:5vh 0 0 3vw
 }
 .course-form ul li {
   margin-top: 1em;
@@ -557,8 +557,8 @@ section {
 .course-form a{
   position: absolute;
   width: 90%;
-  margin:5vh  0 0 2vw;
-  padding: 1vw 0 1vw 6vw;
+  margin:2vh  0 0 1.5vw;
+  padding: 1vw 0 1vw 7vw;
   border-radius: 0.5em;
   color: white;
 }
@@ -1031,20 +1031,29 @@ section {
   /* color: white; */
 }
 .buttonpair1{
-  margin-left: 1.9em;
+  margin-left: 0.6em;
 }
-
+.buttonpair1{
+  width: 153px;
+}
 .buttonpair2
 {
    width: 98%;
 }
-.button24,.course-form a
+.button24,.course-form a,button
 {
-  background: orange;
+  background:linear-gradient(to bottom, #38ddff 0%,  #2691de 100%);
+}
+.span1
+{
+  margin-left: 2em;
+}
+.span2{
+  margin-left: 0.5em;
 }
 button
 {
-  background:linear-gradient(to right, #38ddff 0%,  #1decc9 100%);
+  
   color: white;
   border-radius: 0.4em;
   padding: 0.5em;

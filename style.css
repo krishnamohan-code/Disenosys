@@ -56,8 +56,8 @@ body{
     right: 7%;
     top: 50%;
     opacity: 0;
-    -webkit-transition: 0.3s;
-    transition: 0.3s;
+    /* -webkit-transition: 100s;
+    transition: 100s; */
 }
 
 .welcome-slider-area:hover .owl-controls {
@@ -83,8 +83,8 @@ body{
     padding-top: 5px;
     right: 0;
     text-align: center;
-    -webkit-transition: all 0.3s ease 0s;
-    transition: all 0.3s ease 0s;
+    /* -webkit-transition: all 100s ease 10s;
+    transition: all 100s ease 10s; */
     width: 50px;
 }
 
@@ -214,7 +214,9 @@ a.enroll-button:hover {
 }
 .text-center p
 {
-  word-spacing:0.5em ;
+  word-spacing:0.04em ;
+  font-size: 1.2em;
+  /* margin-top: 2em; */
 }
 .video-area-popup {
     background:linear-gradient(to bottom, #38ddff 0%,  #2691de 100%);
