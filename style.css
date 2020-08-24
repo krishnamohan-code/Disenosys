@@ -64,13 +64,10 @@ body{
     right: 10%;
     opacity: 1;
 }
-#more{
-    margin-left: 56em; 
-    /* margin-bottom: 0em; */
-    color: white;
-    background:linear-gradient(to bottom, #38ddff 0%,  #2691de 100%);
-    padding: 0.6em;  
-    border-radius: 0.5em;
+.btn-primary{
+    margin-left: 10em;
+    margin-top: 1em;
+    width: 7em;
 }
 .welcome-slider-area .owl-nav > div {
     background:linear-gradient(to bottom, #38ddff 0%,  #2691de 100%);
