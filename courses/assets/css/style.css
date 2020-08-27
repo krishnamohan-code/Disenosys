@@ -20,7 +20,23 @@ body {
 a {
   color: #5fcf80;
 }
-
+.col-lg-4{
+  background: white;
+}
+.section1{
+  margin-top: 5em;
+  background: url(../../../assest/img/slider/slide-1.jpg) ;
+  background-size: cover;
+}
+.form1{
+  border-radius: 1em;
+}
+tbody ul{
+  margin-left: 1em;
+}
+tbody ul li{
+  margin-bottom: 0.5em;
+}
 a:hover {
   color: #86db9f;
   text-decoration: none;
@@ -416,6 +432,9 @@ h1, h2, h3, h4, h5, h6 {
   left: 0;
   right: 0;
 }
+
+
+
 /* .container>div{
   font-weight:bolder ;
   margin-left: 0;
@@ -554,7 +573,7 @@ section {
 .course-form ul li {
   margin-top: 1em;
 }
-.course-form a{
+#syllabus-button {
   position: absolute;
   width: 90%;
   margin:2vh  0 0 1.5vw;
@@ -563,14 +582,15 @@ section {
   color: white;
 }
 .breadcrumbs {
-  /* display: flex;/ */
+  display: flex;
   background: url(../../../assest/img/slider/slide-1.jpg);
   background-size: cover;
   margin-top: 73px;
   text-align: left;
-  padding: 250px 0;
-  /* color: white; */
-  /* font-weight: bolder; */
+  padding: 220px 0;
+}
+.breadcrumbs table{
+  margin: 0 5em 0 0;
 }
 
 @media (max-width: 992px) {
@@ -1040,7 +1060,7 @@ section {
 {
    width: 98%;
 }
-.button24,.course-form a,button
+.button24,#syllabus-button,button
 {
   background:linear-gradient(to bottom, #38ddff 0%,  #2691de 100%);
 }
@@ -1321,18 +1341,6 @@ button
   padding: 1px 0 3px 0;
   background: #5fcf80;
   color: #fff;
-}
-.form
-{  
-  /* color: white; */
-  margin: 0px;
-  width: 0px;
-  margin-top: 60px;
-  border: 0.1px solid skyblue;
-  border-radius: 1em;
-  background: white;
-  color: #111;
-  /* background:linear-gradient(to bottom, #38ddff 0%,  #2691de 100%); */
 }
 
 /*--------------------------------------------------------------
