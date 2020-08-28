@@ -28,36 +28,78 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
-  <!-- =======================================================
-  * Template Name: Mentor - v2.1.0
-  * Template URL: https://bootstrapmade.com/mentor-free-education-bootstrap-theme/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+
 </head>
 
 <body>
 
   <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top" style="background: black;">
-    <div class="container d-flex align-items-center">
-
-      <img src="../assest/img/Disenosys_Logo_Wh.png" height="50px" width="250px" alt="Image Not Found">
-      <!-- Uncomment below if you prefer to use an image logo -->
-      <!-- <a href="index.html" class="logo mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
-
-      <nav class="nav-menu d-none d-lg-block">
+  <nav id="navbar" class="push better-nav fixed-top">
+    <div class="container">
+      <div class="head">
+        <a href="#" class="brand">
+          <div class="logo">
+            <img class="image" src="./assets/img/Disenosys_Logo_Wh.png" alt="Branding" />
+          </div>
+         
+        </a>
+      </div>
+      <div class="body">
         <ul>
-          <li><a href="../index.html">Home</a></li>
-          <li class="active"><a href="courses.html">Courses</a></li>
-          <li><a href="../Blog/blog.html">Blog</a></li>
-          <li><a href="../about-us/about-us.html">About Us</a></li>
-          <li><a href="#">Contact</a></li>
+          <li class="home active"><a href="./index.html">Home</a></li>
+          <li class="page"><a href="./about-us/about-us.html">About us</a></li>
+          <li class="blog dropdown"><a href="./courses/courses.html">Our Courses</a>
+            <span class="selector"></span>
+            <ul>
+              <li><a href="#">Latest</a></li>
+              <li><a href="#">Popular</a></li>
+              <li class="dropdown"><a href="#">Categories</a>
+                <span class="selector"></span>
+                <ul>
+                  <li><a href="#">HTML</a></li>
+                  <li class="dropdown"><a href="#">CSS</a>
+                    <span class="selector"></span>
+                    <ul>
+                      <li><a href="#">Something really long like a sentence or something!?</a></li>
+                      <li><a href="#">CSS3</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="#">JavaScript</a></li>
+                  <li class="dropdown"><a href="#">Others</a>
+                    <span class="selector"></span>
+                    <ul>
+                      <li><a href="./projects/projects.html">Projects</a></li>
+                      <li><a href="./contact/contact.html">Contact us</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li class="page"><a href="#">Contacts</a></li>
+          <li class="more dropdown"><a href="#"><i class="fa fa-ellipsis-v" aria-hidden="true"></i></a>
+            <span class="selector"></span>
+            <ul>
+              <li><a href="#">RSS</a></li>
+              <li class="search clearfix">
+                <form>
+                  <input type="text" placeholder="Search" />
+                  <button><i class="fa fa-search" aria-hidden="true"></i></button>
+                </form>
+              </li>
+            </ul>
+          </li>
         </ul>
-      </nav><!-- .nav-menu -->
+      </div>
+      <div class="toggle">
+        <a href="#navbar-slide">
+          <i class="fa fa-bars" aria-hidden="true"></i>
+        </a>
+      </div>
     </div>
-  </header><!-- End Header -->
-
+  </nav>
+  <div id="underlay" class="better-nav-mobile-underlay"></div>
+  <nav id="navbar-slide" class="better-nav-pills"></nav>
   <main id="main" data-aos="fade-in">
 
     <!-- ======= Breadcrumbs ======= -->
@@ -392,64 +434,81 @@
   </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->
-  <footer class="footer-area sky-gray-bg relative">
-    <div class="footer-top-area padding-80-80 bg-dark">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-5 col-lg-5 col-sm-12 col-xs-12">
-                    <div class="single-footer footer-about sm-mb50 xs-mb50 sm-center xs-center">
-                        <div class="footer-logo mb30">
-                            <a href="#"><img src="assest/img/Disenosys_Logo_Wh.png" height="60px" width="180px" alt=""></a>
-                        </div>
-                        <p>Saudi Arabia has been accused of using anti-terror laws to suppress free expression and failing to carry out independent inquiries into its Yemen.</p>
-                    </div>
-                </div>
-                <div class="col-md-2 col-lg-2 col-sm-4 col-xs-12">
-                    <div class="single-footer footer-list white xs-center xs-mb50">
-                        <ul>
-                            <li><a href="#">About</a></li>
-                            <li><a href="#">Service</a></li>
-                            <li><a href="#">Team</a></li>
-                            <li><a href="#">Privicy Policy</a></li>
-                            <li><a href="#">Testmonial</a></li>
-                            <li><a href="#">Support</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-md-5 col-lg-5 col-sm-8 col-xs-12">
-                    <div class="single-footer footer-subscribe white xs-center">
-                        <h3 class="mb30 xs-font18">Subscribe Our Newsletter</h3>
-                        <p>Doubtful for answered one fat indulged margaret sir shutters together. Ladies so in wholly .</p>
-                        <div class="subscriber-form-area mt50 wow fadeIn">
-                            <!--<form action="#" class="subscriber-form mb100">
-                                <input type="email" name="email" id="email" placeholder="Email Address">
-                                <button type="submit">Subscribe</button>
-                            </form>-->
-                            <form id="mc-form" class="subscriber-form">
-                                <label class="mt10" for="mc-email"></label>
-                                <input type="email" id="mc-email" placeholder="email@example.com">
-                                <button type="submit" class="plus-btn"><i class="fa fa-paper-plane-o"></i></button>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="footer-bottom-area white">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
-                    <div class="footer-copyright text-center wow fadeIn">
-                        <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Disenosys</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</footer>
+ <!-- Please Subscribe My Youtube Channel
+https://www.youtube.com/channel/UCQM5ye1xR4vJgtga0ryud2Q/
+-->
+<footer id="footer" class="footer-1">
+  <div class="main-footer widgets-dark typo-light">
+  <div class="container">
+  <div class="row">
+    
+  <div class="col-xs-12 col-sm-6 col-md-3">
+  <div class="widget subscribe no-box">
+<img src="./assets/img/Disenosys_Logo_Wh.png" width="250px"></img>
+      <p>About the company, little discription goes here... </p>
+  </div>
+  </div>
+  
+  <div class="col-xs-12 col-sm-6 col-md-3">
+  <div class="widget no-box">
+  <h5 class="widget-title">Quick Links<span></span></h5>
+  <ul class="thumbnail-widget">
+  <li>
+  <div class="thumb-content"><a href="./index.html">Home</a></div>	
+  </li>
+  <li>
+  <div class="thumb-content"><a href="./about-us/about-us.html">About Us</a></div>	
+  </li>
+  <li>
+  <div class="thumb-content"><a href="./courses/courses.html">Our Courses</a></div>	
+  </li>
+  <li>
+  <div class="thumb-content"><a href="./projects/projects.html">Projects</a></div>	
+  </li>
+  <li>
+  <div class="thumb-content"><a href="./Blog/blog.html">Blogs</a></div>	
+  </li>
+  <li>
+  <div class="thumb-content"><a href="./contact/contact.html">Contact us</a></div>	
+  </li>
+  
+  </ul>
+  </div>
+  </div>
+  
+  <div class="col-xs-12 col-sm-6 col-md-3">
+  <div class="widget no-box">
+  <h5 class="widget-title">Get Started<span></span></h5>
+  <p>Get access to your full Training Courses.</p>
+  <a class="btn" href="#." target="_blank">Register Now</a>
+  </div>
+  </div>
+  
+  <div class="col-xs-12 col-sm-6 col-md-3">
+  
+  <div class="widget no-box">
+  <h5 class="widget-title">GET IN TOUCH<span></span></h5>
+  <p>Address : Chokkanathar St, Sudha Avenue, Chitlapakkam, Chennai, Tamil Nadu 600059</p>
+  <p>Phone : +91 99621 49069</p>
+  <p>Email : info@disenosys.com</p>
+  <br>
+  <ul class="social-footer2">
+  <li class=""><a title="youtube" target="_blank" href="https://www.youtube.com/"><img alt="youtube" width="30" height="30" src="https://cdn3.iconfinder.com/data/icons/popular-services-brands/512/youtube-512.png"></a></li>
+  <li class=""><a href="https://www.facebook.com/" target="_blank" title="Facebook"><img alt="Facebook" width="30" height="30" src="https://cdn0.iconfinder.com/data/icons/social-messaging-ui-color-shapes-2-free/128/social-facebook-2019-circle-512.png"></a></li>
+  <li class=""><a href="https://twitter.com" target="_blank" title="Twitter"><img alt="Twitter" width="30" height="30" src="https://cdn4.iconfinder.com/data/icons/social-media-icons-the-circle-set/48/twitter_circle-512.png"></a></li>
+  <li class=""><a title="instagram" target="_blank" href="https://www.instagram.com/"><img alt="instagram" width="30" height="30" src="https://cdn3.iconfinder.com/data/icons/popular-services-brands/512/instagram-512.png"></a></li>
+  <li class=""><a title="instagram" target="_blank" href="https://www.instagram.com/"><img alt="instagram" width="30" height="30" src="https://cdn4.iconfinder.com/data/icons/social-media-icons-the-circle-set/48/linkedin_circle-512.png"></a></li>
+  
+</ul>
+  </div>
+  </div>
+  
+  </div>
+  </div>
+  </div>
+    
+ 
+  </footer>
   <!-- End Footer -->
 
   <a href="#" class="back-to-top"><i class="bx bx-up-arrow-alt"></i></a>
