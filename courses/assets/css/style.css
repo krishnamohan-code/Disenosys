@@ -713,7 +713,7 @@ section {
   display: flex;
   background: url("https://www.mercedes-amg.com/content/dam/hq/content-pages/performance_center/AMG_Performance_Center_Kampagne_Showroom2_hd.jpg/_jcr_content/renditions/original.1531815727225./AMG_Performance_Center_Kampagne_Showroom2_hd.jpg");
   background-size: cover;
-  margin-top: 73px;
+  /* margin-top:  0px; */
   text-align: left;
   padding: 220px 0;
 }
