@@ -746,14 +746,14 @@ a.enroll-button:hover {
   
   figure.effect-sadie h2 {
     position: absolute;
-    top: 80%;
+    top: 100%;
     left: 0;
     width: 100%;
     color: #fff;
     -webkit-transition: -webkit-transform 0.35s, color 0.35s;
     transition: transform 0.35s, color 0.35s;
-    -webkit-transform: translate3d(0, -50%, 0);
-    transform: translate3d(0, -50%, 0);
+    -webkit-transform: translate3d(0, 50%, 0);
+    transform: translate3d(0, 50%, 0);
   }
   
   figure.effect-sadie figcaption::before,
