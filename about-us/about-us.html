@@ -20,11 +20,11 @@
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-
+  <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
-
+  <link rel="stylesheet" href="assets/css/popup.css".css">
 </head>
 
 <body>
@@ -40,43 +40,54 @@
                 <div class="logo">
                   <img class="image" src="./assets/img/Disenosys_Logo_Wh.png" alt="Branding" />
                 </div>
-               
               </a>
             </div>
             <div class="body">
               <ul>
-                <li class="home"><a href="./index.html">Home</a></li>
-                <li class="page active"><a href="./about-us.html">About us</a></li>
-                <li class="blog dropdown"><a href="courses/courses.html">Our Courses</a>
+                <li class="home active"><a href="./index.html">Home</a></li>
+                <li class="blog dropdown"><a href="./courses/courses.html">Our Courses</a>
                   <span class="selector"></span>
                   <ul>
-                    <li><a href="#">Latest</a></li>
-                    <li><a href="#">Popular</a></li>
-                    <li class="dropdown"><a href="#">Categories</a>
+                      <li class="dropdown"><a href="#">Domain Programs</a>
+                          <span class="selector"></span>
+                          <ul>
+                            <li><a href="courses/automotive.html">Automotive BIW</a></li>
+                            <li><a href="courses/GD_and_T_foundation.html">GD & T Foundation</a>
+                            </li>
+                            <li><a href="courses/seating_design.html">Seating Design</a></li>
+                            <li><a href="courses/wiring_harness.html">Wiring Harness</a></li>
+                            <li><a href="courses/GD_and_expert.html">GD & T Expert</a></li>
+                          </ul>
+                        </li>
+                  
+                  </li>
+                    <li><li class="dropdown"><a href="#">Master Programs</a>
                       <span class="selector"></span>
                       <ul>
-                        <li><a href="#">HTML</a></li>
-                        <li class="dropdown"><a href="#">CSS</a>
-                          <span class="selector"></span>
+                        <li><a href="courses/CAE_CARRER_CHOICE.html">CAE Career Choice</a></li>
+                      </ul>
+                    </li></li>
+                    <li class="dropdown"><a href="#">CAD Programs</a>
+                      <span class="selector"></span>
+                      <ul>
+                        <li><a href="courses/CATIA_VS_EXPERT.html">CATIA V5 Expert</a></li>
+                        <li ><a href="courses/CATIA_VS_Foundation.html">CATIA V5 Foundation</a>
+                          <!-- <span class="selector"></span>
                           <ul>
                             <li><a href="#">Something really long like a sentence or something!?</a></li>
                             <li><a href="#">CSS3</a></li>
-                          </ul>
+                          </ul> -->
                         </li>
-                        <li><a href="#">JavaScript</a></li>
-                        <li class="dropdown"><a href="#">Others</a>
-                          <span class="selector"></span>
-                          <ul>
-                            <li><a href="./projects/projects.html">Projects</a></li>
-                            <li><a href="./contact/contact.html">Contact us</a></li>
-                          </ul>
-                        </li>
+                        <li><a href="courses/CATIA_VS_Professional.html">CATIA V5 Professional</a></li>
+                        <li><a href="courses/creo_foundation.html">CREO Foundation</a></li>
+                        <li><a href="courses/creo_professional.html">CREO Professional</a></li>
                       </ul>
                     </li>
                   </ul>
                 </li>
                 <li class="page"><a href="./projects/projects.html">Projects</a></li>
                 <li class="page"><a href="./Blog/blog.html">Blogs</a></li>
+                <li class="page"><a href="./about-us/about-us.html">About us</a></li>
                 <li class="page"><a href="./contact/contact.html">Contact us</a></li>
                 <li class="more dropdown"><a href="#"><i class="fa fa-ellipsis-v" aria-hidden="true"></i></a>
                   <span class="selector"></span>
@@ -101,7 +112,8 @@
         <div id="underlay" class="better-nav-mobile-underlay"></div>
         <nav id="navbar-slide" class="better-nav-pills"></nav>
         
-
+      <!--END MAINMENU AREA END-->
+  </div>
  
 
 
@@ -326,7 +338,7 @@
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up">
             <div class="member">
               <div class="member-img">
-                <img src="assets/img/team/team-3.jpg" class="img-fluid" alt="">
+                <img src="assets/img/team/praveenkumar.png" class="img-fluid" alt="">
                 <div class="social">
                   <a href=""><i class="icofont-twitter"></i></a>
                   <a href=""><i class="icofont-facebook"></i></a>
@@ -335,7 +347,20 @@
                 </div>
               </div>
               <div class="member-info">
-                <h4>Praveen Kumar</h4>
+                <!-- Button trigger modal -->
+               <!-- Trigger/Open The Modal -->
+<button id="myBtn1">Praveen Kumar</button>
+
+<!-- The Modal -->
+<div id="myModal1" class="modal">
+ <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close" id="span1">&times;</span>
+    <h4>Praveen Kumar</h4>
+      <p> <strong> Mr.Praveen Kumar </strong>Founder, Disenosys.Over 12 years of experience in the automotive industry. Has worked with multinational OEMs like Ford, Daimler, Mercedes Benz, Renault Nissan in the design and development of automotive engine and transmission components using CATIA V5. Expert in CATIA and Management.</p>
+  </div>
+</div>
+
                 <span>Chief Executive Officer</span>
               </div>
             </div>
@@ -344,7 +369,7 @@
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
             <div class="member">
               <div class="member-img">
-                <img src="assets/img/team/team-3.jpg" class="img-fluid" alt="">
+                <img src="assets/img/team/Radhakrishnan.png" class="img-fluid" alt="">
                 <div class="social">
                   <a href=""><i class="icofont-twitter"></i></a>
                   <a href=""><i class="icofont-facebook"></i></a>
@@ -353,8 +378,18 @@
                 </div>
               </div>
               <div class="member-info">
-                <h4>Radhakrishnan</h4>
-                <span>Trainer</span>
+                <!-- Button trigger modal -->
+                <button id="myBtn2" >Radhakrishnan</button>
+                <div id="myModal2" class="modal">
+                
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                      <span class="close" id="span2">&times;</span>
+                      <h4>Radhakrishnan</h4>
+                      <p> <strong> Mr.Radhakrishnan </strong>Over 20 years of experience in the education industry and OEMs, has trained over thousands of students in AutoCAD, CATIA, Solidworks, Siemens NX, Ansys, Microsoft Project, etc. An expert educator and career counsellor, his expertise has helped many students land their first job in the industry.</p>
+                    </div>
+                  </div>
+                <span>Career Development Coach, Software Specialist</span>
               </div>
             </div>
           </div>
@@ -362,7 +397,7 @@
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
             <div class="member">
               <div class="member-img">
-                <img src="assets/img/team/team-3.jpg" class="img-fluid" alt="">
+                <img src="assets/img/team/AshwinKumar.png" class="img-fluid" alt="">
                 <div class="social">
                   <a href=""><i class="icofont-twitter"></i></a>
                   <a href=""><i class="icofont-facebook"></i></a>
@@ -371,8 +406,19 @@
                 </div>
               </div>
               <div class="member-info">
-                <h4>Praveen Kumar</h4>
-                <span>CEO</span>
+                
+                     <!-- Button trigger modal -->
+                <button id="myBtn3" >Ashwin Kumar</button>
+                <div id="myModal3" class="modal">
+                
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                      <span class="close" id="span3">&times;</span>
+                      <h4>Ashwin Kumar</h4>
+                      <p> <strong> Mr.Ashwin Kumar </strong> Over 12 years of experience as CAE engineer. Has worked for muilti domain projects for Vestas, Carrier, Takarta, TAFE, CAT, John Deer(Agri) and Calsonic Kansei. Technical manager at Optimuz Tech Services, CAE domai expert.</p>
+                    </div>
+                  </div>
+                <span>Manager, Optimuz TS</span>
               </div>
             </div>
           </div>
@@ -380,7 +426,7 @@
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
             <div class="member">
               <div class="member-img">
-                <img src="assets/img/team/team-3.jpg" class="img-fluid" alt="">
+                <img src="assets/img/team/trainer1.png" class="img-fluid" alt="">
                 <div class="social">
                   <a href=""><i class="icofont-twitter"></i></a>
                   <a href=""><i class="icofont-facebook"></i></a>
@@ -389,8 +435,153 @@
                 </div>
               </div>
               <div class="member-info">
-                <h4>Radhakrishnan</h4>
-                <span>trainers</span>
+                
+                <button id="myBtn4" >BADDY</button>
+                <div id="myModal4" class="modal">
+                
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                      <span class="close" id="span4">&times;</span>
+                      <h4>BADDY</h4>
+                      <p> <strong> Mr.BADDY </strong>Over 12 years of experience in multiple industries. Has worked with multinational companies in over 10 countries. He is an MS in Industrial management from the US. An expert in GD&T and stackup analysis, he has good command over the career development of the students including resume preparation, cover letter writing, career counselling, US educational visa specialist, university selection and application, etc.</p>
+                    </div>
+                  </div>
+                <span>GD&T and Stackup Analysis Expert, USA</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
+            <div class="member">
+              <div class="member-img">
+                <img src="assets/img/team/trainer1.png" class="img-fluid" alt="">
+                <div class="social">
+                  <a href=""><i class="icofont-twitter"></i></a>
+                  <a href=""><i class="icofont-facebook"></i></a>
+                  <a href=""><i class="icofont-instagram"></i></a>
+                  <a href=""><i class="icofont-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                
+                <button id="myBtn5" >WALID GHIDHAOUI</button>
+                <div id="myModal5" class="modal">
+                
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                      <span class="close" id="span5">&times;</span>
+                      <h4>WALID GHIDHAOUI</h4>
+                      <p> <strong> Mr.WALID GHIDHAOUI </strong>His work has been an inspiration for many. A freestyle sketcher and an automotive designer, who designs cars for many OEMs. He is fluent in CATIA and trains students in Arabic, French and English.</p>
+                    </div>
+                  </div>
+                <span>Automotive Industrial Designer, TUNISIA</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
+            <div class="member">
+              <div class="member-img">
+                <img src="assets/img/team/trainer1.png" class="img-fluid" alt="">
+                <div class="social">
+                  <a href=""><i class="icofont-twitter"></i></a>
+                  <a href=""><i class="icofont-facebook"></i></a>
+                  <a href=""><i class="icofont-instagram"></i></a>
+                  <a href=""><i class="icofont-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                
+                <button id="myBtn6" >BADDY</button>
+                <div id="myModal6" class="modal">
+                
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                      <span class="close" id="span6">&times;</span>
+                      <h4>BALAN</h4>
+                      <p> <strong> Mr.BALAN </strong>Over 12 years of experience in Ford and other OEMs in the design and development of automotive Body in White using CATIA. An expert 3D modeller and a knowledgeable tooling expert, his expertise has helped many students land their first job in the automotive industry.</p>
+                    </div>
+                  </div>
+                <span>Automotive Body in White, FORD</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
+            <div class="member">
+              <div class="member-img">
+                <img src="assets/img/team/trainer1.png" class="img-fluid" alt="">
+                <div class="social">
+                  <a href=""><i class="icofont-twitter"></i></a>
+                  <a href=""><i class="icofont-facebook"></i></a>
+                  <a href=""><i class="icofont-instagram"></i></a>
+                  <a href=""><i class="icofont-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                
+                <button id="myBtn7" >BOSE</button>
+                <div id="myModal7" class="modal">
+                
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                      <span class="close" id="span7">&times;</span>
+                      <h4>BOSE</h4>
+                      <p> <strong> Mr.BOSE </strong>An ASME certified GD&T Technologist and Six sigma certified industrial professional. He has over 8 years of experience in Dimensional variation analysis, Value Analysis and NPD cycle. Has experience working with Ford, John Deere, Whirlpool, Satyam Ventures in Rapid Prototyping processes & vacuum casting.</p>
+                    </div>
+                  </div>
+                <span>GD&T and Stackup Analysis Expert, FORD</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
+            <div class="member">
+              <div class="member-img">
+                <img src="assets/img/team/trainer1.png" class="img-fluid" alt="">
+                <div class="social">
+                  <a href=""><i class="icofont-twitter"></i></a>
+                  <a href=""><i class="icofont-facebook"></i></a>
+                  <a href=""><i class="icofont-instagram"></i></a>
+                  <a href=""><i class="icofont-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                
+                <button id="myBtn8" >PRAKASH</button>
+                <div id="myModal8" class="modal">
+                
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                      <span class="close" id="span8">&times;</span>
+                      <h4>PRAKASH</h4>
+                      <p> <strong> Mr.PRAKASH </strong>Over 10 years of experience in OEMs like Tata Motors, Jaguar Landrover, Skoda, and Volkwagen in the design and development of automotive Body in White. An expert 3D modeler and a knowledgeable tooling expert, his expertise has helped many students land their first job in the automotive industry.</p>
+                    </div>
+                  </div>
+                <span>GAutomotive Body in White, Tata Motors, BIW Expert</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
+            <div class="member">
+              <div class="member-img">
+                <img src="assets/img/team/trainer1.png" class="img-fluid" alt="">
+                <div class="social">
+                  <a href=""><i class="icofont-twitter"></i></a>
+                  <a href=""><i class="icofont-facebook"></i></a>
+                  <a href=""><i class="icofont-instagram"></i></a>
+                  <a href=""><i class="icofont-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                
+                <button id="myBtn9" >SMITH</button>
+                <div id="myModal9" class="modal">
+                
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                      <span class="close" id="span9">&times;</span>
+                      <h4>SMITH</h4>
+                      <p> <strong> Mr.SMITH </strong>He is a highly analytical, innovative and motivated engineering professional with experience in designing and drawing of automotive seat parts and assembly using software tools including CATIA v5 and ENOVIA. He has worked with companies like Infosys, Johnson Controls, and Magna Steyr.</p>
+                    </div>
+                  </div>
+                <span>Manager, Automotive Seating Design, Faurecia</span>
               </div>
             </div>
           </div>
@@ -496,7 +687,7 @@ https://www.youtube.com/channel/UCQM5ye1xR4vJgtga0ryud2Q/
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
-
+   <script src="assets/js/popup.js"></script>
 </body>
 
 </html>
