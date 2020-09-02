@@ -1197,8 +1197,10 @@ section {
 .col-lg-4 a{
   width: 95%;
 }
-
-.btn-primary,#syllabus-button
+.btn:hover{
+  background:none
+}
+.btn,#syllabus-button
 {
   background:linear-gradient(to bottom, #38ddff 0%,  #2691de 100%);
 }

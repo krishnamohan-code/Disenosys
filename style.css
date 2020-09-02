@@ -129,7 +129,7 @@ body { position: relative; }
  /* Body */
   .better-nav .body { float: right; height: 100%; }
   .better-nav .body li:hover,
-  .better-nav .body li:focus { background:linear-gradient(to bottom,#38ddff 0%,#2691de 100%); }
+  .better-nav .body li:focus { background:linear-gradient(to bottom,#38ddff 0%,#2691de 100%); border-radius: 1em; }
   .better-nav .body li:hover > a,
   .better-nav .body li:focus > a { opacity: 1; }
   .better-nav .body ul { list-style: none; margin: 0; padding: 0; height: 100%; }
