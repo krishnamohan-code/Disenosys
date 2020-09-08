@@ -1189,18 +1189,9 @@ section {
 }
 .buttonpair2
 {
-   margin-left: 5em;
-   color: white;
-   padding: 0.5em;
-   border-radius: 0.2em;
+   width: 98%;
 }
-.col-lg-4 a{
-  width: 95%;
-}
-.btn:hover{
-  background:none
-}
-.btn,#syllabus-button
+.button24,#syllabus-button,button
 {
   background:linear-gradient(to bottom, #38ddff 0%,  #2691de 100%);
 }
@@ -1211,8 +1202,16 @@ section {
 .span2{
   margin-left: 0.5em;
 }
-
-
+button
+{
+  
+  color: white;
+  border-radius: 0.4em;
+  padding: 0.5em;
+  border-style: none;
+  margin: 0.5em;
+  font-weight: bolder;
+}
 .course-details .course-info h5 {
   font-weight: 400;
   font-size: 16px;
