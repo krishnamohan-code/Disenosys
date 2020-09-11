@@ -25,11 +25,16 @@ body { position: relative; }
  /* Body */
   .better-nav .body { float: right; height: 100%; }
   .better-nav .body li:hover,
-  .better-nav .body li:focus { background:linear-gradient(to bottom,#38ddff 0%,#2691de 100%); }
+  .better-nav .body li:focus {
+    background:linear-gradient(to bottom,#38ddff 0%,#2691de 100%);
+    border-radius: 1em;
+    height: 50px;
+    margin-top: 0.5em;
+     }
   .better-nav .body li:hover > a,
   .better-nav .body li:focus > a { opacity: 1; }
   .better-nav .body ul { list-style: none; margin: 0; padding: 0; height: 100%; }
-  .better-nav .body ul li.active { background: linear-gradient(to bottom,#38ddff 0%,#2691de 100%); }
+  /* .better-nav .body ul li.active { background: linear-gradient(to bottom,#38ddff 0%,#2691de 100%); } */
   .better-nav .body > ul > li { display: table; float: left; height: 100%; }
   .better-nav .body > ul > li > a { display: table-cell; vertical-align: middle; text-decoration: none; padding: 0 15px; }
   /* Dropdown */
@@ -37,7 +42,7 @@ body { position: relative; }
     .better-nav .body ul li.dropdown > a::after { content: "\f0d7"; font: normal normal normal 14px/1 FontAwesome; margin-left: 5px; text-decoration: none; opacity: 0.2; }
     .better-nav .body ul li.dropdown:hover a:after { opacity: 1; }
     .better-nav .body ul li.dropdown:hover > ul { transform: scale(1); max-height: 500px; }
-    .better-nav .body ul li.dropdown ul { min-width: 160px; max-width: 240px; transform: scale(0); transition: all 300ms ease; background: black; max-height: 0; position: absolute; top: 100%; right: 0; z-index: 10; height: initial;  }
+    .better-nav .body ul li.dropdown ul { min-width: 200px; max-width: 240px; transform: scale(0); transition: all 300ms ease; background: black; max-height: 0; position: absolute; top: 100%; right: 0; z-index: 10; height: initial;  }
     .better-nav .body ul li.dropdown ul li { height: initial; }
     .better-nav .body ul li.dropdown ul li a { display: block; padding: 15px; text-decoration: none; }
     .better-nav .body ul li.dropdown ul .dropdown ul { right: 100%; top: 0; }
@@ -706,7 +711,8 @@ section {
 
 .why-us .content .more-btn:hover {
   color: linear-gradient(to bottom,#38ddff 0%,#2691de 100%);
-  background: #fff;
+  /* background: black; */
+  color: #252525;
 }
 
 .why-us .icon-boxes .icon-box {
@@ -957,7 +963,8 @@ section {
 }
 
 .services .icon-box:hover .icon {
-  background: #fff;
+  /* background: #fff; */
+  background: #222;
   border: 2px solid linear-gradient(to bottom,#38ddff 0%,#2691de 100%);
 }
 

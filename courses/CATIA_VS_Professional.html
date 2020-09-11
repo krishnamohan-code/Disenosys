@@ -32,26 +32,68 @@
 
 <body>
 
-  <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top" style="background: black;">
-    <div class="container d-flex align-items-center">
-
-      <img src="../assest/img/Disenosys_Logo_Wh.png" height="50px" width="250px" alt="Image Not Found">
-      <!-- Uncomment below if you prefer to use an image logo -->
-      <!-- <a href="index.html" class="logo mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
-
-      <nav class="nav-menu d-none d-lg-block">
+  <nav id="navbar" class="push better-nav fixed-top">
+    <div class="container">
+      <div class="head">
+        <a href="#" class="brand">
+          <div class="logo">
+            <img class="image" src="./assets/img/Disenosys_Logo_Wh.png" alt="Branding" />
+          </div>
+         
+        </a>
+      </div>
+      <div class="body">
         <ul>
-          <li><a href="../index.html">Home</a></li>
-          <li><a href="../about-us/about-us.html">About Us</a></li>
-          <li class="active"><a href="courses.html">Courses</a></li>
-          <li><a href="#">Contact</a></li>
-
-        </ul>
-      </nav>
-
+          <li class="home active"><a href="../index.html">Home</a></li>
+          <li class="blog dropdown"><a href="../courses/courses.html">Our Courses</a>
+            <span class="selector"></span>
+            <ul>
+                <li class="dropdown"><a href="#">Domain Programs</a>
+                    <span class="selector"></span>
+                    <ul>
+                      <li><a href="courses/automotive.html">Automotive BIW</a></li>
+                      <li><a href="courses/GD_and_T_foundation.html">GD & T Foundation</a>
+                      </li>
+                      <li><a href="courses/seating_design.html">Seating Design</a></li>
+                      <li><a href="courses/wiring_harness.html">Wiring Harness</a></li>
+                      <li><a href="courses/GD_and_expert.html">GD & T Expert</a></li>
+                    </ul>
+                  </li>
+            
+            </li>
+              <li><li class="dropdown"><a href="#">Master Programs</a>
+                <span class="selector"></span>
+                <ul>
+                  <li><a href="courses/CAE_CARRER_CHOICE.html">CAE Career Choice</a></li>
+                </ul>
+              </li>
+            </li>
+              <!-- <li class="dropdown"><a href="#">CAD Programs</a>
+                <span class="selector"></span>
+                <ul>
+                  <li><a href="courses/CATIA_VS_EXPERT.html">CATIA V5 Expert</a></li>
+                  <li class="dropdown"><a href="courses/CATIA_VS_Foundation.html">CATIA V5 Foundation</a>
+                  </li>
+                  <li><a href="courses/CATIA_VS_Professional.html">CATIA V5 Professional</a></li>
+                  <li><a href="courses/creo_foundation.html">CREO Foundation</a></li>
+                  <li><a href="courses/creo_professional.html">CREO Professional</a></li>
+                </ul>
+              </li> -->
+            </ul>
+            <li class="page"><a href="../projects/projects.html">Projects</a></li>
+            <li class="page"><a href="../Blog/blog.html">Blogs</a></li>
+            <li class="page"><a href="../about-us/about-us.html">About us</a></li>
+            <li class="page"><a href="../contact/contact.html">Contact us</a></li>
+      </div>
+      <div class="toggle">
+        <a href="#navbar-slide">
+          <i class="fa fa-bars" aria-hidden="true"></i>
+        </a>
+      </div>
     </div>
-  </header><!-- End Header -->
+  </nav>
+  <div id="underlay" class="better-nav-mobile-underlay"></div>
+  <nav id="navbar-slide" class="better-nav-pills"></nav>
 
   <main id="main">
 
