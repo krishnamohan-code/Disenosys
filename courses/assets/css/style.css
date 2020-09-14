@@ -22,7 +22,12 @@ body { position: relative; }
 /* Head */
   .better-nav .head { float: left; height: 100%; }
   .better-nav .head .brand { display: block; opacity: 1; padding: 15px 0; height: 100%; text-decoration: none; }
-  .better-nav .head .brand .logo { float: left; margin-right: 15px; height:250px; }
+  .better-nav .head .brand .logo {
+     float: left;
+      margin-right: 15px;
+      margin-top: -8px;
+       height:250px;
+     }
   .better-nav .head .brand .logo .image { height: 50px; width: auto; width: auto; }
   .better-nav .head .brand .title { float: left; display: table; height: 100%; }
   .better-nav .head .brand .title h3 { opacity: 0.7; display: table-cell; vertical-align: middle; font-size: 24px; font-weight: bold; font-family: 'Comfortaa', cursive; }
@@ -30,17 +35,22 @@ body { position: relative; }
   .better-nav .head .brand .title h3:focus { opacity: 1; }
 
   .better-nav .body { float: right; height: 100%; }
-  .better-nav .body li:hover,
+  .better-nav .body li a:hover,
   .better-nav .body li:focus { 
-    background:linear-gradient(to bottom,#38ddff 0%,#2691de 100%);
+    /* background:linear-gradient(to bottom,#38ddff 0%,#2691de 100%);
     border-radius: 1em;
     height: 50px;
-    margin-top: 0.5em;
+    margin-top: 0.5em; */
+    color: #2691de; 
    }
   .better-nav .body li:hover > a,
   .better-nav .body li:focus > a { opacity: 1; }
   .better-nav .body ul { list-style: none; margin: 0; padding: 0; height: 100%; }
-  /* .better-nav .body ul li.active { background: linear-gradient(to bottom,#38ddff 0%,#2691de 100%); } */
+  .better-nav .body ul li.active>a {
+    color: #2691de;
+    /* border-radius: 1em;
+    height: 50px;  */
+    }
   .better-nav .body > ul > li { display: table; float: left; height: 100%; }
   .better-nav .body > ul > li > a { display: table-cell; vertical-align: middle; text-decoration: none; padding: 0 15px; }
   
@@ -168,7 +178,7 @@ a {
   border-radius: 1em;
 }
 tbody ul{
-  margin-left: 1em;
+  margin: 2em 0em 2em 2em;
 }
 tbody ul li{
   margin-bottom: 0.5em;
@@ -1177,7 +1187,12 @@ section {
   bottom: 0;
   left: 0;
 }
-
+.course-info p .span1{
+  margin-left: 2.1em;
+}
+.course-info p .span2{
+  margin-left: 1.3em;
+}
 .course-details .course-info,.breadcrumbs .course-info {
   /* background: #f6f7f6; */
   padding: 10px 15px;
@@ -1202,9 +1217,7 @@ section {
 .col-lg-4 a{
   width: 95%;
 }
-.btn:hover{
-  background:none
-}
+
 .btn,#syllabus-button
 {
   background:linear-gradient(to bottom, #38ddff 0%,  #2691de 100%);
@@ -1709,8 +1722,8 @@ ul.social-footer2 {	margin: 0;padding: 0;	width: auto;}
 ul.social-footer2 li {display: inline-block;padding: 0;}
 ul.social-footer2 li a:hover {background-color:#ff8d1e;}
 ul.social-footer2 li a {display: block;	height:30px;width: 30px;text-align: center;}
-.btn{background-color: #ff8d1e; color:#fff;}
-.btn:hover, .btn:focus, .btn.active {background: #4b92dc;color: #fff;
+/* .btn{background-color: #ff8d1e; color:#fff;} */
+ .btn:focus, .btn.active {background: #4b92dc;color: #fff;
 -webkit-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
 -moz-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
 -ms-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
