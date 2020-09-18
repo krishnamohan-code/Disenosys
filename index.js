@@ -1,11 +1,9 @@
-function myFunction() {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "topnav") {
-      x.className += " responsive";
-    } else {
-      x.className = "topnav";
-    }
-  }
+// nav start 
+$('.menubtn').on('click', function() {
+  $('nav > ul').slideToggle().trigger('click');
+});
+
+// nav end
   jQuery(document).ready(function($) {
     "use strict";
     //  TESTIMONIALS CAROUSEL HOOK
