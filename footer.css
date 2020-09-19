@@ -64,10 +64,10 @@ footer {
 }
 @media (max-width:600px){
   footer{
-    margin-top:100px;
+    margin-top:200px;
   }
   .footer-logo{
-    margin: 0 0 0 10px;
+    margin: 0 0 0 50px;
     width: 25%;
   }
 }
