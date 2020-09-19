@@ -1,6 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');
 *{
     margin: 0px;
     padding: 0px;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+.title-heading-font-family{
+  font-family: 'Lato', sans-serif;
 }
 body {
     color: #000;
@@ -43,9 +49,9 @@ a {
     border-top-right-radius: 20px
 }
 .card2 h1{
-    margin-top: 12px;
+    margin-top: 0px;
     font-weight: 800;
-    font-size: 40px;
+    font-size: 43px;
     color: #000;
 }
 .card2 p{ 
@@ -321,12 +327,12 @@ body {
 /* .fun-facts i{color:#fac600; margin-bottom:15px; margin-right:0;}
 .fun-facts i:hover{color:#fac600;} */
 .fun-facts p{
-  font-weight:900;
+  font-weight:700;
   font-size: 1.4vw;
 }
 
 .number{
-  margin-left: -160px;
+  margin-left: -140px;
 }
 @media screen and (max-width: 1099px){
   
@@ -376,7 +382,7 @@ body {
   
   .testimonial-name {
     /* margin: x auto 0; */
-    margin: -40px 0 0 190px;
+    margin: -6vh 0 0 15vw;
     display: table;
     width: auto;
     /* background:/ #3190E7; */
@@ -447,14 +453,17 @@ body {
 } */
 .testimonial2{
   background:#89b0c713;
-  /* padding-top: 2000px; */
+height: 500px;
 }
-.testimonial2 h5 {
+.testimonial2 h1 {
     line-height: 22px;
-    font-size: 18px;
-		font-weight: 400;
+    font-size: 40px;
+    font-weight: 400;
+    margin-top:50px ;
 }
-
+.testimonial2 p{
+  margin-top: 60px;
+}
 .testimonial2 .font-weight-medium {
   font-weight: 500;
 }

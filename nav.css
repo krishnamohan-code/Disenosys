@@ -70,12 +70,29 @@ ul.submenu1{
   width: 230px;
   z-index: 1;
 }
+ul.submenu2{
+  position: absolute;
+  background: #000000;
+  border-radius: 0.3em;
+  top: 19px;
+  right: 190px;
+  display: none;
+  transition: all 1s;
+  padding: 10px;
+  width: 230px;
+  /* z-index: 1; */
+}
 ul.submenu li{
   float: none;
   line-height: 35px;
   border-bottom: 1px solid #666;
 }
 ul.submenu1 li{
+  float: none;
+  line-height: 35px;
+  border-bottom: 1px solid #666;
+}
+ul.submenu2 li{
   float: none;
   line-height: 35px;
   border-bottom: 1px solid #666;
@@ -89,11 +106,13 @@ ul.submenu li a:hover {
 nav ul li:hover ul.submenu {
   display: block;
 }
+nav ul li :hover ul.submenu1{ display: block;}
+nav ul li :hover ul.submenu2{display: block;}
 /* ul li :hover ul.submenu1{display: block;} */
 
 ul.submenu1 li{ float: none;}
-/* nav ul li ul li:hover ul.submenu1{ display: block;} */
-nav ul li :hover ul.submenu1{display: block;}
+ul.submenu2 li{ float: none;}
+
 .clear {
   clear: both
 }
@@ -109,7 +128,14 @@ nav ul li :hover ul.submenu1{display: block;}
   .menubtn {
     display:table;
     float: right;
+    margin:20px 50px 0 0;
     padding: 5px;
+    background: black;
+    color: white;
+    border-style: none;
+  }
+  nav ul {
+    overflow: hidden;
   }
   nav ul {
     display: none;
