@@ -11,7 +11,7 @@ h2 img{
   margin: 0 0 0 50px;
 }
 nav {
-  background: #000000;
+  background: #002a3f;
   color: #fff;
   width: 100%;
   /* position: fixed; */
@@ -107,11 +107,11 @@ nav ul li:hover ul.submenu {
   display: block;
 }
 nav ul li :hover ul.submenu1{ display: block;}
-nav ul li :hover ul.submenu2{display: block;}
+nav ul li li:hover ul.submenu2{display: block;}
 /* ul li :hover ul.submenu1{display: block;} */
 
 ul.submenu1 li{ float: none;}
-ul.submenu2 li{ float: none;}
+ul.submenu2 li { float: none;}
 
 .clear {
   clear: both

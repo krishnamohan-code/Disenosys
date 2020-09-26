@@ -3,11 +3,13 @@ footer div{
 }
 .footer-logo{
   margin: 90px 0 0 -100px;
-  height: 17vh;
-  width: 15.5vw;
+  /* height: 17vh;
+  width: 15.5vw; */
+  height: 100px;
+  width: 150px;
 }
 .footer-h5 {
-    font-size: 3rem;
+    font-size: 2rem;
     line-height: 1.375;
     font-weight: 500;
     color: white;
@@ -40,7 +42,8 @@ ul li a:hover {
   border-right: 2px solid white;
 } */
 footer {
-  background: #0c3f61ce;
+  /* background: #0c3f61ce; */
+  background: #002a3f;
 }
 .social a{
   margin: -200px 50px 0 0;
@@ -71,3 +74,5 @@ footer {
     width: 25%;
   }
 }
+
+/* 002a3f footer color*/

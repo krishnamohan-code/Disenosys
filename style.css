@@ -6,7 +6,8 @@
     font-weight: 400;
 }
 .title-heading-font-family{
-  font-family: 'Lato', sans-serif;
+  font-family: 'Lato';
+  font-weight: 900;
 }
 body {
     color: #000;
@@ -327,7 +328,7 @@ body {
 /* .fun-facts i{color:#fac600; margin-bottom:15px; margin-right:0;}
 .fun-facts i:hover{color:#fac600;} */
 .fun-facts p{
-  font-weight:800;
+  font-weight:700;
   font-size: 1.4vw;
 }
 
