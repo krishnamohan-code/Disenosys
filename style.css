@@ -103,6 +103,9 @@ span{
 .text-sm {
     font-size: 20px !important
 }
+.text-sm1{
+  font-size: 15.5px;
+}
 /* 
 input {
     padding: 10px 12px 10px 12px;
